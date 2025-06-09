@@ -19,7 +19,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Container start
-        run: hoverkraft-tech/compose-action@v2.0.1
+        uses: hoverkraft-tech/compose-action@v2.0.1
 
       - name: Waiting for сontainer start
         run: sleep 30
