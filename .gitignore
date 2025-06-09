@@ -20,6 +20,9 @@ build/
 *.ipr
 out/
 
+
+data
+
 ### NetBeans ###
 /nbproject/private/
 /nbbuild/
@@ -45,5 +48,3 @@ out/
 !**/src/test/**
 
 
-
-data
